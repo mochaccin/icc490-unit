@@ -17,6 +17,8 @@ Se ha solicitado crear un software para gestionar el inventario de productos en 
 
 ## Codigo extra
 
+### Clase Producto
+
 ```java
 import java.util.ArrayList;
 
@@ -25,15 +27,13 @@ class Producto {
     private String nombre;
     private double precio;
     private int cantidad;
-    private String categoria;
 
     // Constructor
-    public Producto(String id, String nombre, double precio, int cantidad, String categoria) {
+    public Producto(String id, String nombre, double precio, int cantidad) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
         this.cantidad = cantidad;
-        this.categoria = categoria;
     }
 }
 ```

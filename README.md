@@ -14,3 +14,26 @@ Se ha solicitado crear un software para gestionar el inventario de productos en 
 - Implementar validaciones para cada operación. Asegurarse de que las entradas sean válidas y manejar los casos en los que no se pueda realizar la operación (e.g., producto no existente al intentar eliminar o modificar).
 - Crear excepciones personalizadas para manejar errores específicos, como `ProductoNoEncontradoException` o `InventarioVacioException`.
 - Aplicar pruebas unitarias (PU) para validar el correcto funcionamiento de las funcionalidades, tanto para operaciones con valor de retorno (e.g., el cálculo del valor total) como para operaciones de tipo `void` que alteren la estructura de otros datos (e.g., eliminar o modificar productos).
+
+## Codigo extra
+
+```java
+import java.util.ArrayList;
+
+class Producto {
+    private String id;
+    private String nombre;
+    private double precio;
+    private int cantidad;
+    private String categoria;
+
+    // Constructor
+    public Producto(String id, String nombre, double precio, int cantidad, String categoria) {
+        this.id = id;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.cantidad = cantidad;
+        this.categoria = categoria;
+    }
+}
+```

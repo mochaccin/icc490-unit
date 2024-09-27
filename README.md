@@ -81,3 +81,22 @@ class GestorInventario {
     }
 }
 ```
+
+### Ejemplo exception custom
+
+```java
+public class Main {
+    // Implementacion de la exception custom
+    public static void main(String[] args) throws HolaException {
+        throw new HolaException("Hola");
+
+    }
+}
+
+// Creacion nueva exception
+class HolaException extends Exception {
+    public HolaException(String mensaje) {
+        super(mensaje);
+    }
+}
+```

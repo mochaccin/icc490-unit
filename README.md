@@ -37,3 +37,47 @@ class Producto {
     }
 }
 ```
+
+### Clase GestorInventario
+
+```java
+class GestorInventario {
+    private ArrayList<Producto> inventario;
+
+    // Constructor
+    public GestorInventario() {
+        this.inventario = new ArrayList<>();
+    }
+
+    // Métodos vacíos
+    public void agregarProducto(Producto producto) {
+        // Implementar lógica
+    }
+
+    public void eliminarProducto(String id) {
+        // Implementar lógica
+    }
+
+    public void modificarProducto(String id) {
+        // Implementar lógica
+    }
+
+    public Producto consultarProductoPorId(String id) {
+        // Implementar lógica
+        return null;
+    }
+
+    public void aplicarDescuento(String id, double porcentaje) {
+        // Implementar lógica
+    }
+
+    public double calcularValorTotalInventario() {
+        // Implementar lógica
+        return 0.0;
+    }
+
+    public void mostrarInventario() {
+        // Implementar lógica
+    }
+}
+```
